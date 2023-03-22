@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+    color: #333;
+    font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+h1, h2, strong {
+    color: red;
+}
+
+p, em {
+    color: darkblue;
+    margin: 0.5em 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    border: 5px solid orange;
+}
+
+ol {
+    border: 5px solid purple;
+}
+
+ol, ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+#task3 {
+    color: black;
+}
