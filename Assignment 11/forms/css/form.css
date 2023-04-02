@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* form styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+#formcol1 li {
+	list-style: none;
+}
+
+label {
+    margin-right: .1em; /* decreased from .3em */
+    width: 6.3em;
+    display: inline-block;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+}
+
+input[type="radio"] {
+    margin-right: 2px; /* decreased from 10px */
+}
+
+.reqfield {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.formblock {
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: blue !important;}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#formcol1 input.reqfield {
+	background:#FF9;
+}
+	
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+#multchoice {
+    clear: both;
+    padding-top: 10px;
+}
+
+/* end of form css */
+
